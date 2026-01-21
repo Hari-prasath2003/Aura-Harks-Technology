@@ -264,8 +264,13 @@ export function About() {
           >
             <div className="aspect-[4/3] relative">
               <ImageWithFallback
+<<<<<<< HEAD
                 src="https://images.unsplash.com/photo-1739298061740-5ed03045b280?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMHRlYW0lMjBtZWV0aW5nJTIwY29sbGFib3JhdGlvbnxlbnwxfHx8fDE3Njg4MDA1NDJ8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral"
                 alt="Business team meeting collaboration"
+=======
+                src="https://images.unsplash.com/photo-1496180470114-6ef490f3ff22?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMG1lZXRpbmclMjBwcm9mZXNzaW9uYWx8ZW58MXx8fHwxNzY4Mjk2NTI3fDA&ixlib=rb-4.1.0&q=80&w=1080"
+                alt="Professional business meeting and strategy"
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
                 className="w-full h-full object-cover"
               />
               <motion.div 

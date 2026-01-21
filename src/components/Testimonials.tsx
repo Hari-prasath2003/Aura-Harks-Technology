@@ -151,9 +151,20 @@ export function Testimonials() {
                     {testimonials[activeIndex].location} • {testimonials[activeIndex].service}
                   </div>
                   {testimonials[activeIndex].website && (
+<<<<<<< HEAD
                     <div className="text-[#ED5924] text-sm">
                       {testimonials[activeIndex].website}
                     </div>
+=======
+                    <a 
+                      href={`https://${testimonials[activeIndex].website}`}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-[#ED5924] text-sm hover:underline transition-all"
+                    >
+                      {testimonials[activeIndex].website}
+                    </a>
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
                   )}
                 </div>
               </div>

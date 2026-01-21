@@ -42,7 +42,11 @@ export function FloatingContactButton({
           >
             {/* Pulsing background */}
             <motion.div
+<<<<<<< HEAD
               className="absolute inset-0 rounded-full bg-gradient-to-r from-[#ED5924] to-[#FF8C42] opacity-30 blur-xl"
+=======
+              className="absolute inset-0 rounded-full bg-gradient-to-r from-[#0163c6] to-[#073265] opacity-30 blur-xl"
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
               animate={{
                 scale: [1, 1.2, 1],
                 opacity: [0.3, 0.5, 0.3],
@@ -55,7 +59,11 @@ export function FloatingContactButton({
             />
 
             {/* Main button */}
+<<<<<<< HEAD
             <div className="relative w-16 h-16 rounded-full bg-gradient-to-r from-[#ED5924] to-[#FF8C42] shadow-lg shadow-[#ED5924]/30 flex items-center justify-center">
+=======
+            <div className="relative w-16 h-16 rounded-full bg-gradient-to-r from-[#0163c6] to-[#073265] shadow-lg shadow-[#0163c6]/30 flex items-center justify-center">
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
               {/* Rotating border effect */}
               <motion.div
                 className="absolute inset-0 rounded-full"

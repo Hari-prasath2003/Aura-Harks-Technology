@@ -17,6 +17,7 @@ export function Hero() {
 
   return (
     <div ref={ref} className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-b from-white via-blue-50/30 to-white pt-20">
+<<<<<<< HEAD
       {/* Background Video */}
       <div className="absolute inset-0 z-0">
         <video
@@ -33,6 +34,8 @@ export function Hero() {
         <div className="absolute inset-0 bg-gradient-to-b from-white/80 via-white/70 to-white/80" />
       </div>
 
+=======
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
       {/* Parallax background grid */}
       <motion.div 
         className="absolute inset-0"

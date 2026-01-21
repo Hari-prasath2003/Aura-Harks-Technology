@@ -99,6 +99,7 @@ export function PopupForm({ isOpen, onClose, onSubmit, animationType }: PopupFor
 
   const currentAnimation = animationVariants[animationType % animationVariants.length];
 
+<<<<<<< HEAD
   // Reset form when popup opens - with stable dependency
   useEffect(() => {
     if (isOpen && !submitSuccess) {
@@ -106,6 +107,15 @@ export function PopupForm({ isOpen, onClose, onSubmit, animationType }: PopupFor
       setSubmitSuccess(false);
     }
   }, [isOpen]); // Remove submitSuccess from deps to prevent re-renders
+=======
+  // Reset form when popup opens
+  useEffect(() => {
+    if (isOpen) {
+      // Reset success state when reopening
+      setSubmitSuccess(false);
+    }
+  }, [isOpen]);
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
 
   // Reset form data after successful submission
   const resetForm = () => {

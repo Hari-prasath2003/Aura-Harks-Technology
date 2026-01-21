@@ -193,6 +193,7 @@ export function Services() {
             Technology <span className="text-[#ED5924]">in Action</span>
           </h3>
           
+<<<<<<< HEAD
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
             {/* Web Development Card */}
             <motion.div
@@ -299,6 +300,8 @@ export function Services() {
             </motion.div>
           </div>
           
+=======
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
           <div className="grid md:grid-cols-3 gap-8">
             <motion.div
               initial={{ opacity: 0, rotateY: -20 }}

@@ -88,15 +88,25 @@ export default function App() {
       <Loader onLoadingComplete={() => setIsLoading(false)} />
       
       {!isLoading && (
+<<<<<<< HEAD
         <div className="min-h-screen bg-white overflow-x-hidden" style={{ position: 'relative', willChange: 'auto' }}>
           {/* Navigation */}
           <motion.nav
             key="main-nav"
+=======
+        <div className="min-h-screen bg-white overflow-x-hidden" style={{ position: 'relative' }}>
+          {/* Navigation */}
+          <motion.nav
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.5 }}
             className="fixed top-0 left-0 right-0 z-50 bg-white/80 backdrop-blur-xl border-b border-gray-200 shadow-sm"
+<<<<<<< HEAD
             style={{ position: 'fixed', willChange: 'transform' }}
+=======
+            style={{ position: 'fixed' }}
+>>>>>>> 4c5cc588bb627e431d6de5adba19448e5ae149f7
           >
             <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
               <motion.div
